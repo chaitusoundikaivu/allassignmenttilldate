@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS BASCIS</title>
+    </head>
+    <body>
+        <script>
+            //to display on webpage
+            document.write("welcome to klu","<br>");
+            //to display of output device
+            console.log("hello");
+
+            // to display data in form of table
+            console.table([10,20,30,40]);
+
+            document.write(10+"10","<br>")
+            // to convert string to number
+            document.write(10+ +"10","<br>");
+            document.write("1"+"2"+"10","<br>")
+            
+            // -, /,*,% converts string to number 
+            //conversion as typecoersion
+
+            document.write(10-"10","<br>");
+
+            document.write(10*"10", "<br>");
+            document.write(10/"10","<br>");
+
+            document.write(10/"0","<br>"); //infinity
+            document.write(10/"A","<br>"); //NAN
+
+
+
+            //=(assignment)
+            //== comparision ignores datatype
+            //===(strict comparision) both values and type
+
+            document.write(10 == "10" , "<br>");// will compare only values
+            document.write(10 === "10" , "<br>"); 
+
+
+
+           
+
+            document.write(0.1 +0.2 , "<br>");
+            document.write(0.1 +0.2  == 0.3 , "<br>");
+            document.write(0.1 +0.2  === 0.3 , "<br>");
+
+
+
+            //true--1
+            //false--0
+            document.write(true+1 , "<br>");//2
+            document.write(true/false , "<br>");//infinity
+            document.write(1+"true" , "<br>");//1true
+            document.write(true+1 - "1", "<br>");//1
+
+            
+            
+            document.write(3>2>1,"<br>"); //false
+            document.write(1<2<3,"<br>"); //true
+            //bodmas
+            //b-bracker
+            //o-of
+            //d-division
+            //m-multiplication
+            //a-addition
+            //s-subtration
+            document.write(10+5 / 10-5 , "<br>"); //
+            document.write((10+5) / (10-5) , "<br>"); //3
+
+
+
+            //ternary operator
+            //condition ? block1 : block2
+
+            9>8>7 ? document.write("jfs") : document.write("jfsd");
+
+
+            
+        </script>
+    </body>
+</html>
